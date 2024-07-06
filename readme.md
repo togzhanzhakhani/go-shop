@@ -10,7 +10,7 @@
 
 ```sh
 git clone https://github.com/togzhanzhakhani/go-shop.git
-cd projects
+cd go-shop
 ```
 
 2. Постройте проект:
