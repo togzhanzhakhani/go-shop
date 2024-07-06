@@ -6,20 +6,20 @@
 
 ## Installation
 
-1. Clone the repository:
+1. Клонируйте репозиторий:
 
 ```sh
 git clone https://github.com/togzhanzhakhani/projects.git
 cd projects
 ```
 
-2. Build the project:
+2. Постройте проект:
 
 ```sh
 make build
 ```
 
-3. Run the server:
+3. Запустите сервер:
 
 ```sh
 make run

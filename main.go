@@ -116,7 +116,12 @@ func main() {
 		})
 	}
 
-	port := ":8000"
-	log.Println("Server listening on port", port)
-	log.Fatal(http.ListenAndServe(port, router))
+	port := os.Getenv("PORT")
+	if port == "" {
+		port = "8080"
+	}
+	err := router.Run(":" + port)
+	if err != nil {
+		log.Fatalf("Failed to start server: %v", err)
+	}
 }
