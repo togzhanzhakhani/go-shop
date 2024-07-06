@@ -19,3 +19,6 @@ var UserBaseMessages = map[string]string{
 	"oneof":    "must be either 'admin' or 'client'",
 }
 
+func (User) TableName() string {
+    return "project2_users"
+}
