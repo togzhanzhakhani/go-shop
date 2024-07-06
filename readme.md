@@ -39,6 +39,7 @@ Base URL: https://go-shop-ew1n.onrender.com
         "id": 1,
         "name": "John Doe",
         "email": "john.doe@example.com",
+        "address": "example address",
         "registration_date": "2024-07-06T12:00:00Z",
         "role": "user"
     },
@@ -46,6 +47,7 @@ Base URL: https://go-shop-ew1n.onrender.com
         "id": 2,
         "name": "Jane Smith",
         "email": "jane.smith@example.com",
+        "address": "example address2",
         "registration_date": "2024-07-06T13:00:00Z",
         "role": "admin"
     }
@@ -58,6 +60,7 @@ Base URL: https://go-shop-ew1n.onrender.com
 {
     "name": "John Doe",
     "email": "johndoe@example.com",
+    "address": "example address",
     "role": "admin"
 }
 ```
@@ -68,6 +71,7 @@ Base URL: https://go-shop-ew1n.onrender.com
     "id": 3,
     "name": "John Doe",
     "email": "johndoe@example.com",
+    "address": "example address",
     "registration_date": "2024-07-06T14:00:00Z",
     "role": "admin"
 }
@@ -79,6 +83,7 @@ Base URL: https://go-shop-ew1n.onrender.com
     "id": 3,
     "name": "Updated Name",
     "email": "johndoe@example.com",
+    "address": "example address",
     "registration_date": "2024-07-06T14:00:00Z",
     "role": "admin"
 }
@@ -100,6 +105,7 @@ GET /users/search?name=John
         "id": 1,
         "name": "John Doe",
         "email": "john.doe@example.com",
+        "address": "example address",
         "registration_date": "2024-07-06T12:00:00Z",
         "role": "user"
     }
