@@ -9,7 +9,7 @@
 1. Клонируйте репозиторий:
 
 ```sh
-git clone https://github.com/togzhanzhakhani/projects.git
+git clone https://github.com/togzhanzhakhani/go-shop.git
 cd projects
 ```
 
@@ -27,7 +27,7 @@ make run
 
 ## Deployed on RENDER:
 
-Base URL: https://projects-j02i.onrender.com
+Base URL: https://go-shop-ew1n.onrender.com
 
 # API Endpoints
 ## Users
